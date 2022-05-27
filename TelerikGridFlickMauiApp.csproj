@@ -55,7 +55,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Telerik.UI.for.Maui" Version="0.9.0" />
+		<PackageReference Include="Telerik.UI.for.Maui.Trial" Version="1.0.0" />
 	</ItemGroup>
 	
 </Project>
