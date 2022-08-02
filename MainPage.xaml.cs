@@ -46,7 +46,7 @@ public class MainPageViewModel : NotifyPropertyChangedBase
 		var random = new Random();
 		while (true)
 		{
-			await Task.Delay(100);
+			await Task.Delay(10);
 			for (var i = 0; i < Stocks.Count; i++)
 			{
 				Stocks[i].NetChange = Math.Round(random.NextDouble(), 2);
